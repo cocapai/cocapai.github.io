@@ -6,9 +6,37 @@
     <description>Recent content in Tags on 酷卡</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
+    <lastBuildDate>Mon, 11 May 2020 15:38:28 +0800</lastBuildDate>
     
 	<atom:link href="https://cocapai.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>sdf</title>
+      <link>https://cocapai.github.io/tags/sdf/</link>
+      <pubDate>Mon, 11 May 2020 15:38:28 +0800</pubDate>
+      
+      <guid>https://cocapai.github.io/tags/sdf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>as</title>
+      <link>https://cocapai.github.io/tags/as/</link>
+      <pubDate>Mon, 11 May 2020 14:28:00 +0800</pubDate>
+      
+      <guid>https://cocapai.github.io/tags/as/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>阿斯蒂芬</title>
+      <link>https://cocapai.github.io/tags/%E9%98%BF%E6%96%AF%E8%92%82%E8%8A%AC/</link>
+      <pubDate>Mon, 11 May 2020 14:28:00 +0800</pubDate>
+      
+      <guid>https://cocapai.github.io/tags/%E9%98%BF%E6%96%AF%E8%92%82%E8%8A%AC/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
