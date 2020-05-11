@@ -145,7 +145,11 @@
 <div class="post-toc" style="position: absolute; top: 188px;">
     <h2 class="post-toc-title">文章目录</h2>
     <div class="post-toc-content">
-        <nav id="TableOfContents"></nav>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#cordova改wkwebview打包ios应用直接启动不了">cordova改wkwebview打包ios应用，直接启动不了</a></li>
+  </ul>
+</nav>
     </div>
 </div>
 <script type="text/javascript">
@@ -191,9 +195,14 @@
         
         
         <div class="post-content">
-            <h1 id="啥也没有">啥也没有</h1>
-<p>没有</p>
-
+            <h2 id="cordova改wkwebview打包ios应用直接启动不了">cordova改wkwebview打包ios应用，直接启动不了</h2>
+<p>cordova改为wkwebview后启动不了了，提示如下错误：</p>
+<pre><code>*** Terminating app due to uncaught exception 'NSUnknownKeyException', reason: '[&lt;WKWebViewConfiguration 0x11de16c30&gt; setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key _alwaysRunsAtForegroundPriority.'
+</code></pre><p>百度大法找个各种方法都不管用，最后这样搞定的，原因不知道</p>
+<pre><code class="language-ios" data-lang="ios">NSString* str = @&quot;X2Fsd2F5c1J1bnNBdEZvcmVncm91bmRQcmlvcml0eQ==&quot;;
+</code></pre><p>改为：</p>
+<pre><code class="language-ios" data-lang="ios">NSString* str = @&quot;YWx3YXlzUnVuc0F0Rm9yZWdyb3VuZFByaW9yaXR5&quot;;
+</code></pre>
         </div>
 
         
@@ -213,7 +222,15 @@
 
         <div class="post-meta meta-tags">
             
-            没有标签
+            <ul class="clearfix">
+                
+                <li><a href='https://cocapai.github.io/tags/cordova'>cordova</a></li>
+                
+                <li><a href='https://cocapai.github.io/tags/ios'>ios</a></li>
+                
+                <li><a href='https://cocapai.github.io/tags/wkwebview'>wkwebview</a></li>
+                
+            </ul>
             
         </div>
     </article>
@@ -309,11 +326,15 @@
         <h3 class="widget-title">标签</h3>
 <div class="tagcloud">
     
-    <a href="https://cocapai.github.io/tags/as/">as</a>
+    <a href="https://cocapai.github.io/tags/cordova/">cordova</a>
+    
+    <a href="https://cocapai.github.io/tags/ios/">ios</a>
     
     <a href="https://cocapai.github.io/tags/sdf/">sdf</a>
     
-    <a href="https://cocapai.github.io/tags/%E9%98%BF%E6%96%AF%E8%92%82%E8%8A%AC/">阿斯蒂芬</a>
+    <a href="https://cocapai.github.io/tags/wkwebview/">wkwebview</a>
+    
+    <a href="https://cocapai.github.io/tags/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE/">百度地图</a>
     
 </div>
     </section>

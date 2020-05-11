@@ -26,7 +26,7 @@
       <pubDate>Mon, 11 May 2020 14:28:00 +0800</pubDate>
       
       <guid>https://cocapai.github.io/post/sec/</guid>
-      <description>也没有 真没有</description>
+      <description>cordova改wkwebview后不能使用tel拨号，baidumap调起百度地图 安装了这个插件cordova-plugin-wkwebview-engine 修改插件中CDVWKWebViewEngine.m文件 - (void) webView: (WKWebView *) webView decidePolicyForNavigationAction: (WKNavigationAction*) navigationAction decisionHandler: (void (^)(WKNavigationActionPolicy)) decisionHandler { NSURL* url = [navigationAction.request URL]; CDVViewController* vc = (CDVViewController*)self.viewController; /*--------</description>
     </item>
     
     <item>
@@ -35,7 +35,7 @@
       <pubDate>Mon, 11 May 2020 14:23:02 +0800</pubDate>
       
       <guid>https://cocapai.github.io/post/first/</guid>
-      <description>啥也没有 没有</description>
+      <description>cordova改wkwebview打包ios应用，直接启动不了 cordova改为wkwebview后启动不了了，提示如下错误： *** Terminating app due to uncaught exception &#39;NSUnknownKeyException&#39;, reason: &#39;[&amp;lt;WKWebViewConfiguration 0x11de16c30&amp;gt; setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key _alwaysRunsAtForegroundPriority.&#39; 百度大法找个各种方法都不管用，最后这样搞定的，原因不知道 NSString* str = @&amp;quot;X2Fsd2F5c1J1bnNBdEZvcmVncm91bmRQcmlvcml0eQ==&amp;quot;; 改为： NSString* str = @&amp;quot;YWx3YXlzUnVuc0F0Rm9yZWdyb3VuZFByaW9yaXR5&amp;quot;;</description>
     </item>
     
   </channel>

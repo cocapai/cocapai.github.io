@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ios on 酷卡</title>
+    <link>https://cocapai.github.io/tags/ios/</link>
+    <description>Recent content in ios on 酷卡</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 11 May 2020 14:23:02 +0800</lastBuildDate>
+    
+	<atom:link href="https://cocapai.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First</title>
+      <link>https://cocapai.github.io/post/first/</link>
+      <pubDate>Mon, 11 May 2020 14:23:02 +0800</pubDate>
+      
+      <guid>https://cocapai.github.io/post/first/</guid>
+      <description>cordova改wkwebview打包ios应用，直接启动不了 cordova改为wkwebview后启动不了了，提示如下错误： *** Terminating app due to uncaught exception &#39;NSUnknownKeyException&#39;, reason: &#39;[&amp;lt;WKWebViewConfiguration 0x11de16c30&amp;gt; setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key _alwaysRunsAtForegroundPriority.&#39; 百度大法找个各种方法都不管用，最后这样搞定的，原因不知道 NSString* str = @&amp;quot;X2Fsd2F5c1J1bnNBdEZvcmVncm91bmRQcmlvcml0eQ==&amp;quot;; 改为： NSString* str = @&amp;quot;YWx3YXlzUnVuc0F0Rm9yZWdyb3VuZFByaW9yaXR5&amp;quot;;</description>
+    </item>
+    
+  </channel>
+</rss>

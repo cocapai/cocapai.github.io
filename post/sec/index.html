@@ -191,9 +191,40 @@
         
         
         <div class="post-content">
-            <h1 id="也没有">也没有</h1>
-<p>真没有</p>
-
+            <h1 id="cordova改wkwebview后不能使用tel拨号baidumap调起百度地图">cordova改wkwebview后不能使用tel拨号，baidumap调起百度地图</h1>
+<p>安装了这个插件cordova-plugin-wkwebview-engine</p>
+<p>修改插件中CDVWKWebViewEngine.m文件</p>
+<pre><code class="language-NSString" data-lang="NSString">- (void) webView: (WKWebView *) webView decidePolicyForNavigationAction: (WKNavigationAction*) navigationAction decisionHandler: (void (^)(WKNavigationActionPolicy)) decisionHandler
+{
+    NSURL* url = [navigationAction.request URL];
+    CDVViewController* vc = (CDVViewController*)self.viewController;
+    
+    /*---------------修改部分 增加下面这些----------------------------*/
+	NSString *scheme = [url scheme];
+    UIApplication *app = [UIApplication sharedApplication];
+    //电话,短信,邮件
+    if ([scheme isEqualToString:@&quot;tel&quot;]||[scheme isEqualToString:@&quot;sms&quot;] ||[scheme isEqualToString:@&quot;mailto&quot;]) {
+        if ([app canOpenURL:url]) {
+            CGFloat version = [[[UIDevice currentDevice]systemVersion]floatValue];
+            if (version &gt;= 10.0) {
+                /// 大于等于10.0系统使用此openURL方法
+                [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:nil];
+            } else {
+                [[UIApplication sharedApplication] openURL:url];
+            }
+        }
+    }
+    // 打开appstore
+    if ([url.absoluteString containsString:@&quot;ituns.apple.com&quot;]) {
+        if ([app canOpenURL:url]) {
+            [app openURL:url];
+            decisionHandler(WKNavigationActionPolicyCancel);
+            return;
+        }
+    }
+    /*修改结束*/
+    …………
+</code></pre>
         </div>
 
         
@@ -224,9 +255,9 @@
             
             <ul class="clearfix">
                 
-                <li><a href='https://cocapai.github.io/tags/%E9%98%BF%E6%96%AF%E8%92%82%E8%8A%AC'>阿斯蒂芬</a></li>
+                <li><a href='https://cocapai.github.io/tags/wkwebview'>wkwebview</a></li>
                 
-                <li><a href='https://cocapai.github.io/tags/as'>as</a></li>
+                <li><a href='https://cocapai.github.io/tags/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE'>百度地图</a></li>
                 
             </ul>
             
@@ -324,11 +355,15 @@
         <h3 class="widget-title">标签</h3>
 <div class="tagcloud">
     
-    <a href="https://cocapai.github.io/tags/as/">as</a>
+    <a href="https://cocapai.github.io/tags/cordova/">cordova</a>
+    
+    <a href="https://cocapai.github.io/tags/ios/">ios</a>
     
     <a href="https://cocapai.github.io/tags/sdf/">sdf</a>
     
-    <a href="https://cocapai.github.io/tags/%E9%98%BF%E6%96%AF%E8%92%82%E8%8A%AC/">阿斯蒂芬</a>
+    <a href="https://cocapai.github.io/tags/wkwebview/">wkwebview</a>
+    
+    <a href="https://cocapai.github.io/tags/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE/">百度地图</a>
     
 </div>
     </section>
