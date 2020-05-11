@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>库卡的博客</title>
+    <link>https://cocapai.github.io/</link>
+    <description>Recent content on 库卡的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 11 May 2020 14:28:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://cocapai.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sec</title>
+      <link>https://cocapai.github.io/post/sec/</link>
+      <pubDate>Mon, 11 May 2020 14:28:00 +0800</pubDate>
+      
+      <guid>https://cocapai.github.io/post/sec/</guid>
+      <description>也没有 真没有</description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>https://cocapai.github.io/post/first/</link>
+      <pubDate>Mon, 11 May 2020 14:23:02 +0800</pubDate>
+      
+      <guid>https://cocapai.github.io/post/first/</guid>
+      <description>啥也没有 没有</description>
+    </item>
+    
+  </channel>
+</rss>
