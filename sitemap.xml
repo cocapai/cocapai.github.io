@@ -48,7 +48,17 @@
   </url>
   
   <url>
+    <loc>https://cocapai.github.io/categories/</loc>
+    <lastmod>2020-05-11T14:23:02+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cocapai.github.io/tags/cordova/</loc>
+    <lastmod>2020-05-11T14:23:02+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cocapai.github.io/categories/cordova/</loc>
     <lastmod>2020-05-11T14:23:02+08:00</lastmod>
   </url>
   
@@ -60,10 +70,6 @@
   <url>
     <loc>https://cocapai.github.io/tags/ios/</loc>
     <lastmod>2020-05-11T14:23:02+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cocapai.github.io/categories/</loc>
   </url>
   
   <url>
