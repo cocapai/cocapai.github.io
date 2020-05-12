@@ -38,5 +38,14 @@
       <description>cordova改wkwebview打包ios应用，直接启动不了 cordova改为wkwebview后启动不了了，提示如下错误： *** Terminating app due to uncaught exception &#39;NSUnknownKeyException&#39;, reason: &#39;[&amp;lt;WKWebViewConfiguration 0x11de16c30&amp;gt; setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key _alwaysRunsAtForegroundPriority.&#39; 百度大法找个各种方法都不管用，最后这样搞定的，原因不知道 NSString* str = @&amp;quot;X2Fsd2F5c1J1bnNBdEZvcmVncm91bmRQcmlvcml0eQ==&amp;quot;; 改为： NSString* str = @&amp;quot;YWx3YXlzUnVuc0F0Rm9yZWdyb3VuZFByaW9yaXR5&amp;quot;;</description>
     </item>
     
+    <item>
+      <title>第二个半马训练日志</title>
+      <link>https://cocapai.github.io/post/secondmalasong/</link>
+      <pubDate>Thu, 12 Sep 2019 15:52:10 +0800</pubDate>
+      
+      <guid>https://cocapai.github.io/post/secondmalasong/</guid>
+      <description>2019年9月26日星期四 倒计时30天 跑步5公里，小腿肚子好疼和左脚大拇指疼，最近晚上在练hiit动作，估计强度有点大身体有点不适应 2019年9月25日星期三 倒计时31天 跑步7公里，小腿肚子好疼，最近贸然提速，看来是不太行。跑量堆积不够吗？ —–以下是正计时记录方法———– 2019</description>
+    </item>
+    
   </channel>
 </rss>
