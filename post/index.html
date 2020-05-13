@@ -83,24 +83,6 @@
     <article class="post">
         <header>
             <h1 class="post-title">
-                <a href="https://cocapai.github.io/post/guideline2.5.1/" title="Guideline 2.5.1 - Performance - Software Requirements">Guideline 2.5.1 - Performance - Software Requirements</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2020年5月13日
-        </date>
-        
-        <div class="post-content">
-            提示如下： Your app uses the &ldquo;prefs:root=&rdquo; non-public URL scheme, which is a private entity. The use of non-public APIs is not permitted on the App Store because it can lead to a poor user experience should these APIs change.……
-        </div>
-        <p class="readmore"><a href="https://cocapai.github.io/post/guideline2.5.1/">阅读全文</a></p>
-    </article>
-    
-    
-    
-    <article class="post">
-        <header>
-            <h1 class="post-title">
                 <a href="https://cocapai.github.io/post/2020quanmalasong/" title="第一个全马训练日志">第一个全马训练日志</a>
             </h1>
         </header>
@@ -202,6 +184,24 @@
     
     
     
+    <article class="post">
+        <header>
+            <h1 class="post-title">
+                <a href="https://cocapai.github.io/post/guideline2.5.1/" title="Guideline 2.5.1 - Performance - Software Requirements">Guideline 2.5.1 - Performance - Software Requirements</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2019年7月13日
+        </date>
+        
+        <div class="post-content">
+            提示如下： Your app uses the &ldquo;prefs:root=&rdquo; non-public URL scheme, which is a private entity. The use of non-public APIs is not permitted on the App Store because it can lead to a poor user experience should these APIs change. 查找prefs:root=,找到类似的代码如下： 1 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@&#34;prefs:root=Privacy&#34;]];//隐私设置 改为 1 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString] options:@{} completionHandler:nil];……
+        </div>
+        <p class="readmore"><a href="https://cocapai.github.io/post/guideline2.5.1/">阅读全文</a></p>
+    </article>
+    
+    
+    
 
 
 
@@ -226,10 +226,6 @@
 <ul class="widget-list">
     
     <li>
-        <a href="https://cocapai.github.io/post/guideline2.5.1/" title="Guideline 2.5.1 - Performance - Software Requirements">Guideline 2.5.1 - Performance - Software Requirements</a>
-    </li>
-    
-    <li>
         <a href="https://cocapai.github.io/post/2020quanmalasong/" title="第一个全马训练日志">第一个全马训练日志</a>
     </li>
     
@@ -247,6 +243,10 @@
     
     <li>
         <a href="https://cocapai.github.io/post/secondmalasong/" title="第二个半马训练日志">第二个半马训练日志</a>
+    </li>
+    
+    <li>
+        <a href="https://cocapai.github.io/post/guideline2.5.1/" title="Guideline 2.5.1 - Performance - Software Requirements">Guideline 2.5.1 - Performance - Software Requirements</a>
     </li>
     
 </ul>

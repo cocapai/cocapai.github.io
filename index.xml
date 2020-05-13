@@ -12,15 +12,6 @@
     
     
     <item>
-      <title>Guideline 2.5.1 - Performance - Software Requirements</title>
-      <link>https://cocapai.github.io/post/guideline2.5.1/</link>
-      <pubDate>Wed, 13 May 2020 08:20:25 +0800</pubDate>
-      
-      <guid>https://cocapai.github.io/post/guideline2.5.1/</guid>
-      <description>提示如下： Your app uses the &amp;ldquo;prefs:root=&amp;rdquo; non-public URL scheme, which is a private entity. The use of non-public APIs is not permitted on the App Store because it can lead to a poor user experience should these APIs change.</description>
-    </item>
-    
-    <item>
       <title>第一个全马训练日志</title>
       <link>https://cocapai.github.io/post/2020quanmalasong/</link>
       <pubDate>Tue, 12 May 2020 20:52:10 +0800</pubDate>
@@ -72,6 +63,15 @@
       
       <guid>https://cocapai.github.io/post/secondmalasong/</guid>
       <description>2019年9月26日星期四 倒计时30天 跑步5公里，小腿肚子好疼和左脚大拇指疼，最近晚上在练hiit动作，估计强度有点大身体有点不适应 2019年9月25日星期三 倒计时31天 跑步7公里，小腿肚子好疼，最近贸然提速，看来是不太行。跑量堆积不够吗？ —–以下是正计时记录方法———– 2019</description>
+    </item>
+    
+    <item>
+      <title>Guideline 2.5.1 - Performance - Software Requirements</title>
+      <link>https://cocapai.github.io/post/guideline2.5.1/</link>
+      <pubDate>Sat, 13 Jul 2019 08:20:25 +0800</pubDate>
+      
+      <guid>https://cocapai.github.io/post/guideline2.5.1/</guid>
+      <description>提示如下： Your app uses the &amp;ldquo;prefs:root=&amp;rdquo; non-public URL scheme, which is a private entity. The use of non-public APIs is not permitted on the App Store because it can lead to a poor user experience should these APIs change. 查找prefs:root=,找到类似的代码如下： 1 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@&amp;#34;prefs:root=Privacy&amp;#34;]];//隐私设置 改为 1 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString] options:@{} completionHandler:nil];</description>
     </item>
     
     <item>
