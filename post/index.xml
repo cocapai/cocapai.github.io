@@ -65,5 +65,14 @@
       <description>提示如下： Your app uses the &amp;ldquo;prefs:root=&amp;rdquo; non-public URL scheme, which is a private entity. The use of non-public APIs is not permitted on the App Store because it can lead to a poor user experience should these APIs change. 查找prefs:root=,找到类似的代码如下： 1 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@&amp;#34;prefs:root=Privacy&amp;#34;]];//隐私设置 改为 1 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString] options:@{} completionHandler:nil];</description>
     </item>
     
+    <item>
+      <title>vue里调用cordova插件</title>
+      <link>https://cocapai.github.io/post/vueincordova/</link>
+      <pubDate>Wed, 13 Mar 2019 09:30:40 +0800</pubDate>
+      
+      <guid>https://cocapai.github.io/post/vueincordova/</guid>
+      <description>1 2 3 4 5 6 7 8 9 10 document.addEventListener( &amp;#39;deviceready&amp;#39;, function () { console.log(&amp;#39;Device is Ready!&amp;#39;); window.appAvailability.check( &amp;#39;baidumap&amp;#39;, () =&amp;gt; {console.log(&amp;#39;有&amp;#39;)}, () =&amp;gt; {console.log(&amp;#39;没有&amp;#39;)} ) }, false); 上面的window.appAvailability是根据cordova插件列表里的名字来的 cordova_plugin</description>
+    </item>
+    
   </channel>
 </rss>

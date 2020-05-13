@@ -20,5 +20,14 @@
       <description>cordova改wkwebview打包ios应用，直接启动不了 cordova改为wkwebview后启动不了了，提示如下错误： *** Terminating app due to uncaught exception &#39;NSUnknownKeyException&#39;, reason: &#39;[&amp;lt;WKWebViewConfiguration 0x11de16c30&amp;gt; setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key _alwaysRunsAtForegroundPriority.&#39; 百度大法找个各种方法都不管用，最后这样搞定的，原因不知道 NSString* str = @&amp;quot;X2Fsd2F5c1J1bnNBdEZvcmVncm91bmRQcmlvcml0eQ==&amp;quot;; 改为： NSString* str = @&amp;quot;YWx3YXlzUnVuc0F0Rm9yZWdyb3VuZFByaW9yaXR5&amp;quot;;</description>
     </item>
     
+    <item>
+      <title>vue里调用cordova插件</title>
+      <link>https://cocapai.github.io/post/vueincordova/</link>
+      <pubDate>Wed, 13 Mar 2019 09:30:40 +0800</pubDate>
+      
+      <guid>https://cocapai.github.io/post/vueincordova/</guid>
+      <description>1 2 3 4 5 6 7 8 9 10 document.addEventListener( &amp;#39;deviceready&amp;#39;, function () { console.log(&amp;#39;Device is Ready!&amp;#39;); window.appAvailability.check( &amp;#39;baidumap&amp;#39;, () =&amp;gt; {console.log(&amp;#39;有&amp;#39;)}, () =&amp;gt; {console.log(&amp;#39;没有&amp;#39;)} ) }, false); 上面的window.appAvailability是根据cordova插件列表里的名字来的 cordova_plugin</description>
+    </item>
+    
   </channel>
 </rss>
