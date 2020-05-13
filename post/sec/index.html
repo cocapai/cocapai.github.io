@@ -194,37 +194,73 @@
             <h1 id="cordova改wkwebview后不能使用tel拨号baidumap调起百度地图">cordova改wkwebview后不能使用tel拨号，baidumap调起百度地图</h1>
 <p>安装了这个插件cordova-plugin-wkwebview-engine</p>
 <p>修改插件中CDVWKWebViewEngine.m文件</p>
-<pre><code class="language-NSString" data-lang="NSString">- (void) webView: (WKWebView *) webView decidePolicyForNavigationAction: (WKNavigationAction*) navigationAction decisionHandler: (void (^)(WKNavigationActionPolicy)) decisionHandler
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-objectivec" data-lang="objectivec">- (<span style="color:#458;font-weight:bold">void</span>) <span style="color:#900;font-weight:bold">webView:</span> (WKWebView <span style="color:#000;font-weight:bold">*</span>) <span style="color:#008080">webView</span> <span style="color:#900;font-weight:bold">decidePolicyForNavigationAction:</span> (WKNavigationAction<span style="color:#000;font-weight:bold">*</span>) <span style="color:#008080">navigationAction</span> <span style="color:#900;font-weight:bold">decisionHandler:</span> (<span style="color:#458;font-weight:bold">void</span> (<span style="color:#000;font-weight:bold">^</span>)(WKNavigationActionPolicy)) <span style="color:#008080">decisionHandler</span>
 {
-    NSURL* url = [navigationAction.request URL];
-    CDVViewController* vc = (CDVViewController*)self.viewController;
+    NSURL<span style="color:#000;font-weight:bold">*</span> url <span style="color:#000;font-weight:bold">=</span> [navigationAction.request URL];
+    CDVViewController<span style="color:#000;font-weight:bold">*</span> vc <span style="color:#000;font-weight:bold">=</span> (CDVViewController<span style="color:#000;font-weight:bold">*</span>)<span style="color:#0086b3">self</span>.viewController;
     
-    /*---------------修改部分 增加下面这些----------------------------*/
-	NSString *scheme = [url scheme];
-    UIApplication *app = [UIApplication sharedApplication];
-    //电话,短信,邮件
-    if ([scheme isEqualToString:@&quot;tel&quot;]||[scheme isEqualToString:@&quot;sms&quot;] ||[scheme isEqualToString:@&quot;mailto&quot;]) {
-        if ([app canOpenURL:url]) {
-            CGFloat version = [[[UIDevice currentDevice]systemVersion]floatValue];
-            if (version &gt;= 10.0) {
-                /// 大于等于10.0系统使用此openURL方法
-                [[UIApplication sharedApplication] openURL:url options:@{} completionHandler:nil];
-            } else {
-                [[UIApplication sharedApplication] openURL:url];
+    <span style="color:#998;font-style:italic">/*---------------修改部分 增加下面这些----------------------------*/</span>
+	NSString <span style="color:#000;font-weight:bold">*</span>scheme <span style="color:#000;font-weight:bold">=</span> [url scheme];
+    UIApplication <span style="color:#000;font-weight:bold">*</span>app <span style="color:#000;font-weight:bold">=</span> [UIApplication sharedApplication];
+    <span style="color:#998;font-style:italic">//电话,短信,邮件
+</span><span style="color:#998;font-style:italic"></span>    <span style="color:#000;font-weight:bold">if</span> ([scheme <span style="color:#900;font-weight:bold">isEqualToString</span>:<span style="color:#d14">@&#34;tel&#34;</span>]<span style="color:#000;font-weight:bold">||</span>[scheme <span style="color:#900;font-weight:bold">isEqualToString</span>:<span style="color:#d14">@&#34;sms&#34;</span>] <span style="color:#000;font-weight:bold">||</span>[scheme <span style="color:#900;font-weight:bold">isEqualToString</span>:<span style="color:#d14">@&#34;mailto&#34;</span>]) {
+        <span style="color:#000;font-weight:bold">if</span> ([app <span style="color:#900;font-weight:bold">canOpenURL</span>:url]) {
+            CGFloat version <span style="color:#000;font-weight:bold">=</span> [[[UIDevice currentDevice]systemVersion]floatValue];
+            <span style="color:#000;font-weight:bold">if</span> (version <span style="color:#000;font-weight:bold">&gt;=</span> <span style="color:#099">10.0</span>) {
+                <span style="color:#998;font-style:italic">/// 大于等于10.0系统使用此openURL方法
+</span><span style="color:#998;font-style:italic"></span>                [[UIApplication sharedApplication] <span style="color:#900;font-weight:bold">openURL</span>:url <span style="color:#900;font-weight:bold">options</span>:@{} <span style="color:#900;font-weight:bold">completionHandler</span>:<span style="color:#0086b3">nil</span>];
+            } <span style="color:#000;font-weight:bold">else</span> {
+                [[UIApplication sharedApplication] <span style="color:#900;font-weight:bold">openURL</span>:url];
             }
         }
     }
-    // 打开appstore
-    if ([url.absoluteString containsString:@&quot;ituns.apple.com&quot;]) {
-        if ([app canOpenURL:url]) {
-            [app openURL:url];
+    <span style="color:#998;font-style:italic">// 打开appstore
+</span><span style="color:#998;font-style:italic"></span>    <span style="color:#000;font-weight:bold">if</span> ([url.absoluteString <span style="color:#900;font-weight:bold">containsString</span>:<span style="color:#d14">@&#34;ituns.apple.com&#34;</span>]) {
+        <span style="color:#000;font-weight:bold">if</span> ([app <span style="color:#900;font-weight:bold">canOpenURL</span>:url]) {
+            [app <span style="color:#900;font-weight:bold">openURL</span>:url];
             decisionHandler(WKNavigationActionPolicyCancel);
-            return;
+            <span style="color:#000;font-weight:bold">return</span>;
         }
     }
-    /*修改结束*/
-    …………
-</code></pre>
+    <span style="color:#998;font-style:italic">/*修改结束*/</span>
+    <span style="color:#a61717;background-color:#e3d2d2">…………</span>
+</code></pre></td></tr></table>
+</div>
+</div>
         </div>
 
         
