@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cocapai.github.io/categories/</loc>
+    <lastmod>2020-05-12T20:52:10+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cocapai.github.io/post/</loc>
     <lastmod>2020-05-12T20:52:10+08:00</lastmod>
   </url>
   
   <url>
+    <loc>https://cocapai.github.io/tags/</loc>
+    <lastmod>2020-05-12T20:52:10+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cocapai.github.io/post/2020quanmalasong/</loc>
+    <lastmod>2020-05-12T20:52:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cocapai.github.io/tags/%E8%B7%91%E6%AD%A5/</loc>
+    <lastmod>2020-05-12T20:52:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cocapai.github.io/categories/%E8%B7%91%E6%AD%A5/</loc>
+    <lastmod>2020-05-12T20:52:10+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cocapai.github.io/tags/%E9%A9%AC%E6%8B%89%E6%9D%BE/</loc>
     <lastmod>2020-05-12T20:52:10+08:00</lastmod>
   </url>
   
@@ -24,11 +49,6 @@
   
   <url>
     <loc>https://cocapai.github.io/tags/sdf/</loc>
-    <lastmod>2020-05-11T15:38:28+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cocapai.github.io/tags/</loc>
     <lastmod>2020-05-11T15:38:28+08:00</lastmod>
   </url>
   
@@ -53,11 +73,6 @@
   </url>
   
   <url>
-    <loc>https://cocapai.github.io/categories/</loc>
-    <lastmod>2020-05-11T14:23:02+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://cocapai.github.io/tags/cordova/</loc>
     <lastmod>2020-05-11T14:23:02+08:00</lastmod>
   </url>
@@ -79,16 +94,6 @@
   
   <url>
     <loc>https://cocapai.github.io/post/secondmalasong/</loc>
-    <lastmod>2019-09-12T15:52:10+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cocapai.github.io/tags/%E8%B7%91%E6%AD%A5/</loc>
-    <lastmod>2019-09-12T15:52:10+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cocapai.github.io/tags/%E9%A9%AC%E6%8B%89%E6%9D%BE/</loc>
     <lastmod>2019-09-12T15:52:10+08:00</lastmod>
   </url>
   
