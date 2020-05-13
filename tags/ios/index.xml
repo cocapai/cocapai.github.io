@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ios on 酷卡派</title>
-    <link>https://cocapai.github.io/tags/ios/</link>
+    <link>https://www.cocapai.com/tags/ios/</link>
     <description>Recent content in ios on 酷卡派</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 11 May 2020 14:23:02 +0800</lastBuildDate>
     
-	<atom:link href="https://cocapai.github.io/tags/ios/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.cocapai.com/tags/ios/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>cordova改wkwebview打包ios应用，直接启动不了</title>
-      <link>https://cocapai.github.io/post/first/</link>
+      <link>https://www.cocapai.com/post/first/</link>
       <pubDate>Mon, 11 May 2020 14:23:02 +0800</pubDate>
       
-      <guid>https://cocapai.github.io/post/first/</guid>
+      <guid>https://www.cocapai.com/post/first/</guid>
       <description>cordova改wkwebview打包ios应用，直接启动不了 cordova改为wkwebview后启动不了了，提示如下错误： *** Terminating app due to uncaught exception &#39;NSUnknownKeyException&#39;, reason: &#39;[&amp;lt;WKWebViewConfiguration 0x11de16c30&amp;gt; setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key _alwaysRunsAtForegroundPriority.&#39; 百度大法找个各种方法都不管用，最后这样搞定的，原因不知道 NSString* str = @&amp;quot;X2Fsd2F5c1J1bnNBdEZvcmVncm91bmRQcmlvcml0eQ==&amp;quot;; 改为： NSString* str = @&amp;quot;YWx3YXlzUnVuc0F0Rm9yZWdyb3VuZFByaW9yaXR5&amp;quot;;</description>
     </item>
     
     <item>
       <title>Guideline 2.5.1 - Performance - Software Requirements</title>
-      <link>https://cocapai.github.io/post/guideline2.5.1/</link>
+      <link>https://www.cocapai.com/post/guideline2.5.1/</link>
       <pubDate>Sat, 13 Jul 2019 08:20:25 +0800</pubDate>
       
-      <guid>https://cocapai.github.io/post/guideline2.5.1/</guid>
+      <guid>https://www.cocapai.com/post/guideline2.5.1/</guid>
       <description>提示如下： Your app uses the &amp;ldquo;prefs:root=&amp;rdquo; non-public URL scheme, which is a private entity. The use of non-public APIs is not permitted on the App Store because it can lead to a poor user experience should these APIs change. 查找prefs:root=,找到类似的代码如下： 1 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@&amp;#34;prefs:root=Privacy&amp;#34;]];//隐私设置 改为 1 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString] options:@{} completionHandler:nil];</description>
     </item>
     

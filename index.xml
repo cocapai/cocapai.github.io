@@ -2,102 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>酷卡派</title>
-    <link>https://cocapai.github.io/</link>
+    <link>https://www.cocapai.com/</link>
     <description>Recent content on 酷卡派</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Tue, 12 May 2020 10:37:01 +0800</lastBuildDate>
     
-	<atom:link href="https://cocapai.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.cocapai.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>第一个全马训练日志</title>
-      <link>https://cocapai.github.io/post/2020quanmalasong/</link>
+      <link>https://www.cocapai.com/post/2020quanmalasong/</link>
       <pubDate>Tue, 12 May 2020 20:52:10 +0800</pubDate>
       
-      <guid>https://cocapai.github.io/post/2020quanmalasong/</guid>
+      <guid>https://www.cocapai.com/post/2020quanmalasong/</guid>
       <description>5月 5月13日天气晴 没跑 5月12日 天气晴 跑步5公里，配速8分，心率140</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://cocapai.github.io/about/</link>
+      <link>https://www.cocapai.com/about/</link>
       <pubDate>Tue, 12 May 2020 10:37:01 +0800</pubDate>
       
-      <guid>https://cocapai.github.io/about/</guid>
+      <guid>https://www.cocapai.com/about/</guid>
       <description>hah</description>
     </item>
     
     <item>
       <title>cordova改wkwebview后不能使用tel拨号，baidumap调起百度地图</title>
-      <link>https://cocapai.github.io/post/sec/</link>
+      <link>https://www.cocapai.com/post/sec/</link>
       <pubDate>Mon, 11 May 2020 14:28:00 +0800</pubDate>
       
-      <guid>https://cocapai.github.io/post/sec/</guid>
+      <guid>https://www.cocapai.com/post/sec/</guid>
       <description>cordova改wkwebview后不能使用tel拨号，baidumap调起百度地图 安装了这个插件cordova-plugin-wkwebview-engine 修改插件中CDVWKWebViewEngine.m文件 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 - (void) webView:</description>
     </item>
     
     <item>
       <title>cordova改wkwebview打包ios应用，直接启动不了</title>
-      <link>https://cocapai.github.io/post/first/</link>
+      <link>https://www.cocapai.com/post/first/</link>
       <pubDate>Mon, 11 May 2020 14:23:02 +0800</pubDate>
       
-      <guid>https://cocapai.github.io/post/first/</guid>
+      <guid>https://www.cocapai.com/post/first/</guid>
       <description>cordova改wkwebview打包ios应用，直接启动不了 cordova改为wkwebview后启动不了了，提示如下错误： *** Terminating app due to uncaught exception &#39;NSUnknownKeyException&#39;, reason: &#39;[&amp;lt;WKWebViewConfiguration 0x11de16c30&amp;gt; setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key _alwaysRunsAtForegroundPriority.&#39; 百度大法找个各种方法都不管用，最后这样搞定的，原因不知道 NSString* str = @&amp;quot;X2Fsd2F5c1J1bnNBdEZvcmVncm91bmRQcmlvcml0eQ==&amp;quot;; 改为： NSString* str = @&amp;quot;YWx3YXlzUnVuc0F0Rm9yZWdyb3VuZFByaW9yaXR5&amp;quot;;</description>
     </item>
     
     <item>
       <title>第二个半马训练日志</title>
-      <link>https://cocapai.github.io/post/secondmalasong/</link>
+      <link>https://www.cocapai.com/post/secondmalasong/</link>
       <pubDate>Thu, 12 Sep 2019 15:52:10 +0800</pubDate>
       
-      <guid>https://cocapai.github.io/post/secondmalasong/</guid>
+      <guid>https://www.cocapai.com/post/secondmalasong/</guid>
       <description>2019年9月26日星期四 倒计时30天 跑步5公里，小腿肚子好疼和左脚大拇指疼，最近晚上在练hiit动作，估计强度有点大身体有点不适应 2019年9月25日星期三 倒计时31天 跑步7公里，小腿肚子好疼，最近贸然提速，看来是不太行。跑量堆积不够吗？ —–以下是正计时记录方法———– 2019</description>
     </item>
     
     <item>
       <title>Guideline 2.5.1 - Performance - Software Requirements</title>
-      <link>https://cocapai.github.io/post/guideline2.5.1/</link>
+      <link>https://www.cocapai.com/post/guideline2.5.1/</link>
       <pubDate>Sat, 13 Jul 2019 08:20:25 +0800</pubDate>
       
-      <guid>https://cocapai.github.io/post/guideline2.5.1/</guid>
+      <guid>https://www.cocapai.com/post/guideline2.5.1/</guid>
       <description>提示如下： Your app uses the &amp;ldquo;prefs:root=&amp;rdquo; non-public URL scheme, which is a private entity. The use of non-public APIs is not permitted on the App Store because it can lead to a poor user experience should these APIs change. 查找prefs:root=,找到类似的代码如下： 1 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@&amp;#34;prefs:root=Privacy&amp;#34;]];//隐私设置 改为 1 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString] options:@{} completionHandler:nil];</description>
     </item>
     
     <item>
       <title>vue里调用cordova插件</title>
-      <link>https://cocapai.github.io/post/vueincordova/</link>
+      <link>https://www.cocapai.com/post/vueincordova/</link>
       <pubDate>Wed, 13 Mar 2019 09:30:40 +0800</pubDate>
       
-      <guid>https://cocapai.github.io/post/vueincordova/</guid>
+      <guid>https://www.cocapai.com/post/vueincordova/</guid>
       <description>1 2 3 4 5 6 7 8 9 10 document.addEventListener( &amp;#39;deviceready&amp;#39;, function () { console.log(&amp;#39;Device is Ready!&amp;#39;); window.appAvailability.check( &amp;#39;baidumap&amp;#39;, () =&amp;gt; {console.log(&amp;#39;有&amp;#39;)}, () =&amp;gt; {console.log(&amp;#39;没有&amp;#39;)} ) }, false); 上面的window.appAvailability是根据cordova插件列表里的名字来的 cordova_plugin</description>
     </item>
     
     <item>
       <title>《坚持是一种可以养成的习惯》读后分享</title>
-      <link>https://cocapai.github.io/post/thd/</link>
+      <link>https://www.cocapai.com/post/thd/</link>
       <pubDate>Wed, 11 Jul 2018 15:38:28 +0800</pubDate>
       
-      <guid>https://cocapai.github.io/post/thd/</guid>
+      <guid>https://www.cocapai.com/post/thd/</guid>
       <description>人是被习惯所塑造的，优异的结果来自于良好的习惯，而非一时冲动”，这是亚里士多德说的。 一件事情你这样想或那样想大部分是思维习惯决定的，一条路向前走或向右转基本是行为习惯决定的，这是我说的，哈！ 不管怎么样，习惯很重要，养成好习惯很重要。然而养成一个好习惯又非常不容易。 下面分享几个让你</description>
     </item>
     
     <item>
       <title>归档</title>
-      <link>https://cocapai.github.io/archives/</link>
+      <link>https://www.cocapai.com/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cocapai.github.io/archives/</guid>
+      <guid>https://www.cocapai.com/archives/</guid>
       <description></description>
     </item>
     
     <item>
       <title>搜索</title>
-      <link>https://cocapai.github.io/search/</link>
+      <link>https://www.cocapai.com/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://cocapai.github.io/search/</guid>
+      <guid>https://www.cocapai.com/search/</guid>
       <description></description>
     </item>
     
