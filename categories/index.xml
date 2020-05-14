@@ -6,10 +6,19 @@
     <description>Recent content in Categories on 酷卡派</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 12 May 2020 20:52:10 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2020 11:56:58 +0800</lastBuildDate>
     
 	<atom:link href="https://www.cocapai.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IT技术</title>
+      <link>https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Thu, 14 May 2020 11:56:58 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>跑步</title>
@@ -17,15 +26,6 @@
       <pubDate>Tue, 12 May 2020 20:52:10 +0800</pubDate>
       
       <guid>https://www.cocapai.com/categories/%E8%B7%91%E6%AD%A5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>IT技术</title>
-      <link>https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF/</link>
-      <pubDate>Mon, 11 May 2020 14:23:02 +0800</pubDate>
-      
-      <guid>https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF/</guid>
       <description></description>
     </item>
     

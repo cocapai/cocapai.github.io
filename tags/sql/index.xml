@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sql on 酷卡派</title>
+    <link>https://www.cocapai.com/tags/sql/</link>
+    <description>Recent content in sql on 酷卡派</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 14 May 2020 11:56:58 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.cocapai.com/tags/sql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>sql语句里的条件语句</title>
+      <link>https://www.cocapai.com/post/ifinsql/</link>
+      <pubDate>Thu, 14 May 2020 11:56:58 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/post/ifinsql/</guid>
+      <description>sql语句里的条件选择主要是用到 …… case when …… end 1 SELECT * FROM tp_wl_job j WHERE ( addtime &amp;gt; case when contacts=&amp;#39;1周&amp;#39; then 1585626783 when contacts=&amp;#39;1个月&amp;#39; then 1583553183 when contacts=&amp;#39;6个月&amp;#39; then 1570420383 when contacts=&amp;#39;长期&amp;#39; then 0 end ) ORDER BY id desc LIMIT 0,40</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>sql语句里的条件语句</title>
+      <link>https://www.cocapai.com/post/ifinsql/</link>
+      <pubDate>Thu, 14 May 2020 11:56:58 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/post/ifinsql/</guid>
+      <description>sql语句里的条件选择主要是用到 …… case when …… end 1 SELECT * FROM tp_wl_job j WHERE ( addtime &amp;gt; case when contacts=&amp;#39;1周&amp;#39; then 1585626783 when contacts=&amp;#39;1个月&amp;#39; then 1583553183 when contacts=&amp;#39;6个月&amp;#39; then 1570420383 when contacts=&amp;#39;长期&amp;#39; then 0 end ) ORDER BY id desc LIMIT 0,40</description>
+    </item>
+    
+    <item>
       <title>第一个全马训练日志</title>
       <link>https://www.cocapai.com/post/2020quanmalasong/</link>
       <pubDate>Tue, 12 May 2020 20:52:10 +0800</pubDate>
