@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.cocapai.com/tools/</loc>
+    <lastmod>2020-05-15T08:56:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.cocapai.com/</loc>
+    <lastmod>2020-05-15T08:56:07+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.cocapai.com/categories/</loc>
     <lastmod>2020-05-14T11:56:58+08:00</lastmod>
   </url>
@@ -54,11 +64,6 @@
   
   <url>
     <loc>https://www.cocapai.com/about/</loc>
-    <lastmod>2020-05-12T10:37:01+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/</loc>
     <lastmod>2020-05-12T10:37:01+08:00</lastmod>
   </url>
   
@@ -130,6 +135,16 @@
   <url>
     <loc>https://www.cocapai.com/categories/%E8%AF%BB%E4%B9%A6/</loc>
     <lastmod>2018-07-11T15:38:28+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.cocapai.com/categories/%E6%89%AF%E9%97%B2%E7%AF%87/</loc>
+    <lastmod>2017-06-15T08:53:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.cocapai.com/post/haveused/</loc>
+    <lastmod>2017-06-15T08:53:21+08:00</lastmod>
   </url>
   
   <url>
