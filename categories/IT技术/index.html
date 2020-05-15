@@ -136,6 +136,29 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="https://www.cocapai.com/post/guideline2.5.1/">Guideline 2.5.1 - Performance - Software Requirements</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2019年7月13日
+        </date>
+        
+        <div class="post-meta meta-category">
+            |
+            
+            <a href='https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF'>IT技术</a>
+            
+        </div>
+        
+        <div class="post-content">
+            提示如下： Your app uses the &ldquo;prefs:root=&rdquo; non-public URL scheme, which is a private entity. The use of non-public APIs is not permitted on the App Store because it can lead to a poor user experience should these APIs change. 查找prefs:root=,找到类似的代码如下： 1 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@&#34;prefs:root=Privacy&#34;]];//隐私设置 改为 1 [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString] options:@{} completionHandler:nil];……
+            <p class="readmore"><a href="https://www.cocapai.com/post/guideline2.5.1/">阅读全文</a></p>
+        </div>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="https://www.cocapai.com/post/vueincordova/">vue里调用cordova插件</a>
             </h1>
         </header>
@@ -241,9 +264,7 @@
         <h3 class="widget-title">分类</h3>
 <ul class="widget-list">
     
-    <li><a href="https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF/">IT技术 (3)</a></li>
-    
-    <li><a href="https://www.cocapai.com/categories/ios/">ios (1)</a></li>
+    <li><a href="https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF/">IT技术 (4)</a></li>
     
     <li><a href="https://www.cocapai.com/categories/%E6%89%AF%E9%97%B2%E7%AF%87/">扯闲篇 (1)</a></li>
     
