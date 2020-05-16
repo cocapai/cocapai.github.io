@@ -6,19 +6,10 @@
     <description>Recent content in Posts on 酷卡派</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 16 May 2020 11:36:05 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2020 11:56:58 +0800</lastBuildDate>
     
 	<atom:link href="https://www.cocapai.com/post/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Goinstall</title>
-      <link>https://www.cocapai.com/post/goinstall/</link>
-      <pubDate>Sat, 16 May 2020 11:36:05 +0800</pubDate>
-      
-      <guid>https://www.cocapai.com/post/goinstall/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>sql语句里的条件语句</title>
@@ -54,6 +45,15 @@
       
       <guid>https://www.cocapai.com/post/first/</guid>
       <description>cordova改wkwebview打包ios应用，直接启动不了 cordova改为wkwebview后启动不了了，提示如下错误： *** Terminating app due to uncaught exception &#39;NSUnknownKeyException&#39;, reason: &#39;[&amp;lt;WKWebViewConfiguration 0x11de16c30&amp;gt; setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key _alwaysRunsAtForegroundPriority.&#39; 百度大法找个各种方法都不管用，最后这样搞定的，原因不知道 NSString* str = @&amp;quot;X2Fsd2F5c1J1bnNBdEZvcmVncm91bmRQcmlvcml0eQ==&amp;quot;; 改为： NSString* str = @&amp;quot;YWx3YXlzUnVuc0F0Rm9yZWdyb3VuZFByaW9yaXR5&amp;quot;;</description>
+    </item>
+    
+    <item>
+      <title>Go安装的坑</title>
+      <link>https://www.cocapai.com/post/goinstall/</link>
+      <pubDate>Mon, 16 Dec 2019 19:36:05 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/post/goinstall/</guid>
+      <description>go env GO111MOUDLE = ON这个是用go env设置的 GOPATH = f:/gofile 环境变量里添上 在gofile下面新建文件pkg,bin,src其中src是放代码的，所谓的包就是这下面的文件夹 GO MOD INIT还要在项目下面执行下这个</description>
     </item>
     
     <item>
