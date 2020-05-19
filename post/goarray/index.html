@@ -224,6 +224,9 @@
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
 </span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
 <pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-GO" data-lang="GO"><span style="color:#998;font-style:italic">//结构体
@@ -238,9 +241,12 @@
     <span style="color:#000;font-weight:bold">return</span> hanyu <span style="color:#000;font-weight:bold">+</span> shuxue
 } 
 <span style="color:#998;font-style:italic">//接口
-</span><span style="color:#998;font-style:italic"></span><span style="color:#000;font-weight:bold">type</span> Student <span style="color:#000;font-weight:bold">interface</span>{
+</span><span style="color:#998;font-style:italic"></span><span style="color:#000;font-weight:bold">type</span> Human <span style="color:#000;font-weight:bold">interface</span>{
     <span style="color:#900;font-weight:bold">Sum</span>() <span style="color:#458;font-weight:bold">int</span>
 }
+<span style="color:#998;font-style:italic">//使用
+</span><span style="color:#998;font-style:italic"></span>human <span style="color:#000;font-weight:bold">:=</span> Student{old: <span style="color:#099">15</span>, height: <span style="color:#099">158</span>, hanyu: <span style="color:#099">92</span>, shuxue: <span style="color:#099">94</span>}
+(<span style="color:#000;font-weight:bold">&amp;</span>human).<span style="color:#900;font-weight:bold">Sum</span>()
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="类型">类型</h2>
