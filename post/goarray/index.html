@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Goarray | 酷卡派</title>
-    <meta property="og:title" content="Goarray - 酷卡派">
+    <title>go语言结构体，方法，接口 | 酷卡派</title>
+    <meta property="og:title" content="go语言结构体，方法，接口 - 酷卡派">
     <meta property="og:type" content="article">
         
     <meta property="article:published_time" content='2020-05-18T14:50:12&#43;08:00'>
@@ -16,7 +16,7 @@
     <meta property="article:modified_time" content='2020-05-18T14:50:12&#43;08:00'>
         
     <meta name="Keywords" content="这特么还叫专注吗？谁知道呢？IOS、C/C&#43;&#43;、Python、flutter、vue、golang,go语言,go语言笔记,酷卡派,java,android,博客,项目管理,python,软件架构,公众号,小程序">
-    <meta name="description" content="Goarray">
+    <meta name="description" content="go语言结构体，方法，接口">
         
     <meta name="author" content="酷卡派">
     <meta property="og:url" content="https://www.cocapai.com/post/goarray/">
@@ -147,6 +147,7 @@
     <div class="post-toc-content">
         <nav id="TableOfContents">
   <ul>
+    <li><a href="#结构体方法接口">结构体，方法，接口</a></li>
     <li><a href="#类型">类型</a></li>
     <li><a href="#方法">方法</a></li>
     <li><a href="#接口">接口</a></li>
@@ -183,11 +184,18 @@
 </script>
     <article class="post">
         <header>
-            <h1 class="post-title">Goarray</h1>
+            <h1 class="post-title">go语言结构体，方法，接口</h1>
         </header>
         <date class="post-meta meta-date">
             2020年5月18日
         </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF'>IT技术</a></span>
+            
+        </div>
         
         
         <div class="post-meta">
@@ -197,8 +205,45 @@
         
         
         <div class="post-content">
-            <h2 id="类型">类型</h2>
-<p>结构体，方法，接口</p>
+            <h2 id="结构体方法接口">结构体，方法，接口</h2>
+<p>结构体，方法，接口，方法和接口都是对结构体内部做处理的，相当于结构体的内部属性</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-GO" data-lang="GO"><span style="color:#998;font-style:italic">//结构体
+</span><span style="color:#998;font-style:italic"></span><span style="color:#000;font-weight:bold">type</span> Student <span style="color:#000;font-weight:bold">struct</span>{
+    old <span style="color:#458;font-weight:bold">int</span>
+    height <span style="color:#458;font-weight:bold">float64</span>
+    hanyu <span style="color:#458;font-weight:bold">int</span>
+    shuxue <span style="color:#458;font-weight:bold">int</span>
+}
+<span style="color:#998;font-style:italic">//方法
+</span><span style="color:#998;font-style:italic"></span><span style="color:#000;font-weight:bold">func</span> (s Student) <span style="color:#900;font-weight:bold">Sum</span>() <span style="color:#458;font-weight:bold">int</span>{
+    <span style="color:#000;font-weight:bold">return</span> hanyu <span style="color:#000;font-weight:bold">+</span> shuxue
+} 
+<span style="color:#998;font-style:italic">//接口
+</span><span style="color:#998;font-style:italic"></span><span style="color:#000;font-weight:bold">type</span> Student <span style="color:#000;font-weight:bold">interface</span>{
+    <span style="color:#900;font-weight:bold">Sum</span>() <span style="color:#458;font-weight:bold">int</span>
+}
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="类型">类型</h2>
 <h2 id="方法">方法</h2>
 <p>方法和函数差不多</p>
 <h2 id="接口">接口</h2>
@@ -223,6 +268,8 @@
     <h2>See Also</h2>
     <ul class="listing">
         
+        <li><a href="/post/goinstall/">Go安装的坑</a></li>
+        
         <li><a href="/tools/">一些有用的东西</a></li>
         
         <li><a href="/post/ifinsql/">sql语句里的条件语句</a></li>
@@ -231,15 +278,19 @@
         
         <li><a href="/about/">About</a></li>
         
-        <li><a href="/post/sec/">cordova改wkwebview后不能使用tel拨号，baidumap调起百度地图</a></li>
-        
     </ul>
 </div>
 
 
         <div class="post-meta meta-tags">
             
-            没有标签
+            <ul class="clearfix">
+                
+                <li><a href='https://www.cocapai.com/tags/GO'>GO</a></li>
+                
+                <li><a href='https://www.cocapai.com/tags/golang'>golang</a></li>
+                
+            </ul>
             
         </div>
     </article>
@@ -277,7 +328,7 @@
 <ul class="widget-list">
     
     <li>
-        <a href="https://www.cocapai.com/post/goarray/" title="Goarray">Goarray</a>
+        <a href="https://www.cocapai.com/post/goarray/" title="go语言结构体，方法，接口">go语言结构体，方法，接口</a>
     </li>
     
     <li>
@@ -340,7 +391,7 @@
         <h3 class="widget-title">分类</h3>
 <ul class="widget-list">
     
-    <li><a href="https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF/">IT技术 (5)</a></li>
+    <li><a href="https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF/">IT技术 (6)</a></li>
     
     <li><a href="https://www.cocapai.com/categories/%E6%89%AF%E9%97%B2%E7%AF%87/">扯闲篇 (1)</a></li>
     
@@ -362,6 +413,8 @@
     <a href="https://www.cocapai.com/tags/Vue/">Vue</a>
     
     <a href="https://www.cocapai.com/tags/cordova/">cordova</a>
+    
+    <a href="https://www.cocapai.com/tags/golang/">golang</a>
     
     <a href="https://www.cocapai.com/tags/ios/">ios</a>
     

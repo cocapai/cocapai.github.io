@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>GO on 酷卡派</title>
-    <link>https://www.cocapai.com/tags/GO/</link>
-    <description>Recent content in GO on 酷卡派</description>
+    <title>golang on 酷卡派</title>
+    <link>https://www.cocapai.com/tags/golang/</link>
+    <description>Recent content in golang on 酷卡派</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 18 May 2020 14:50:12 +0800</lastBuildDate>
     
-	<atom:link href="https://www.cocapai.com/tags/GO/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.cocapai.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://www.cocapai.com/post/goarray/</guid>
       <description>结构体，方法，接口 结构体，方法，接口，方法和接口都是对结构体内部做处理的，相当于结构体的内部属性 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 //结构体 type Student struct{ old int height float64 hanyu int shuxue int } //方法 func (s Student) Sum() int{ return hanyu + shuxue } //接口 type Student interface{ Sum() int } 类型 方法 方法和函数差不多 接口</description>
-    </item>
-    
-    <item>
-      <title>Go安装的坑</title>
-      <link>https://www.cocapai.com/post/goinstall/</link>
-      <pubDate>Mon, 16 Dec 2019 19:36:05 +0800</pubDate>
-      
-      <guid>https://www.cocapai.com/post/goinstall/</guid>
-      <description>go env GO111MOUDLE = ON这个是用go env设置的 GOPATH = f:/gofile 环境变量里添上 在gofile下面新建文件pkg,bin,src其中src是放代码的，所谓的包就是这下面的文件夹 GO MOD INIT还要在项目下面执行下这个</description>
     </item>
     
   </channel>
