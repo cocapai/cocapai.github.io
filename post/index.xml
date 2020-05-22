@@ -119,5 +119,14 @@
       <description>之前看过网上的一个段子是说早睡早起的：天将降大任于斯人也，必先卸其QQ，删其微信，封其微博；收其电脑，夺其手机，摔其ipad；断其wifi，剪其网线，使其百无聊赖。然后静坐、喝茶、思过、锻炼、读书、弹琴、练字、明智、开悟、精进，而后必成大器也。 这当然只是个段子，但是也说明现代人生</description>
     </item>
     
+    <item>
+      <title>二级域名的session共用</title>
+      <link>https://www.cocapai.com/post/sessiondomain/</link>
+      <pubDate>Tue, 22 Sep 2015 16:19:25 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/post/sessiondomain/</guid>
+      <description>不同的二级域名要公用登录状态时，cookie的sessionid是不同，所以不能同步登录状态。 一定要用的话就是下面这样 1 2 3 //在入口文件里加两行 ini_set(&amp;#39;session.cookie_path&amp;#39;, &amp;#39;/&amp;#39;); ini_set(&amp;#39;session.cookie_domain&amp;#39;, &amp;#39;cocapai.com&amp;#39;); 这样所有的子域名的session是相同的，当然前提是这些子域名要在一个服务器上</description>
+    </item>
+    
   </channel>
 </rss>

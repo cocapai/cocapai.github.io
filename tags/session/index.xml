@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>session on 酷卡派</title>
+    <link>https://www.cocapai.com/tags/session/</link>
+    <description>Recent content in session on 酷卡派</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 22 Sep 2015 16:19:25 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.cocapai.com/tags/session/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>二级域名的session共用</title>
+      <link>https://www.cocapai.com/post/sessiondomain/</link>
+      <pubDate>Tue, 22 Sep 2015 16:19:25 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/post/sessiondomain/</guid>
+      <description>不同的二级域名要公用登录状态时，cookie的sessionid是不同，所以不能同步登录状态。 一定要用的话就是下面这样 1 2 3 //在入口文件里加两行 ini_set(&amp;#39;session.cookie_path&amp;#39;, &amp;#39;/&amp;#39;); ini_set(&amp;#39;session.cookie_domain&amp;#39;, &amp;#39;cocapai.com&amp;#39;); 这样所有的子域名的session是相同的，当然前提是这些子域名要在一个服务器上</description>
+    </item>
+    
+  </channel>
+</rss>

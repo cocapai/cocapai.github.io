@@ -138,6 +138,15 @@
     </item>
     
     <item>
+      <title>二级域名的session共用</title>
+      <link>https://www.cocapai.com/post/sessiondomain/</link>
+      <pubDate>Tue, 22 Sep 2015 16:19:25 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/post/sessiondomain/</guid>
+      <description>不同的二级域名要公用登录状态时，cookie的sessionid是不同，所以不能同步登录状态。 一定要用的话就是下面这样 1 2 3 //在入口文件里加两行 ini_set(&amp;#39;session.cookie_path&amp;#39;, &amp;#39;/&amp;#39;); ini_set(&amp;#39;session.cookie_domain&amp;#39;, &amp;#39;cocapai.com&amp;#39;); 这样所有的子域名的session是相同的，当然前提是这些子域名要在一个服务器上</description>
+    </item>
+    
+    <item>
       <title>归档</title>
       <link>https://www.cocapai.com/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
