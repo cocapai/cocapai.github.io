@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.cocapai.com/post/golangmaps/</loc>
+    <lastmod>2020-05-24T09:45:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.cocapai.com/post/</loc>
+    <lastmod>2020-05-24T09:45:29+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.cocapai.com/categories/</loc>
     <lastmod>2020-05-21T08:25:55+08:00</lastmod>
   </url>
@@ -14,11 +24,6 @@
   
   <url>
     <loc>https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2020-05-21T08:25:55+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/post/</loc>
     <lastmod>2020-05-21T08:25:55+08:00</lastmod>
   </url>
   
