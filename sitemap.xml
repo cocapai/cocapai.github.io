@@ -3,188 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.cocapai.com/post/golangmaps/</loc>
-    <lastmod>2020-05-24T09:45:29+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/post/</loc>
-    <lastmod>2020-05-24T09:45:29+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.cocapai.com/categories/</loc>
-    <lastmod>2020-05-21T08:25:55+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/tags/GO/</loc>
-    <lastmod>2020-05-21T08:25:55+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2020-05-21T08:25:55+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.cocapai.com/tags/</loc>
-    <lastmod>2020-05-21T08:25:55+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/post/pointerror/</loc>
-    <lastmod>2020-05-21T08:25:55+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/tags/%E9%80%9A%E8%BF%87%E6%B5%8B%E8%AF%95%E5%AD%A6go%E8%AF%AD%E8%A8%80/</loc>
-    <lastmod>2020-05-21T08:25:55+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/tags/golang/</loc>
-    <lastmod>2020-05-18T14:50:12+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/post/goarray/</loc>
-    <lastmod>2020-05-18T14:50:12+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/tools/</loc>
-    <lastmod>2020-05-15T08:56:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/</loc>
-    <lastmod>2020-05-15T08:56:07+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/tags/sql/</loc>
-    <lastmod>2020-05-14T11:56:58+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/post/ifinsql/</loc>
-    <lastmod>2020-05-14T11:56:58+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/post/2020quanmalasong/</loc>
-    <lastmod>2020-05-12T20:52:10+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/tags/%E8%B7%91%E6%AD%A5/</loc>
-    <lastmod>2020-05-12T20:52:10+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/categories/%E8%B7%91%E6%AD%A5/</loc>
-    <lastmod>2020-05-12T20:52:10+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/tags/%E9%A9%AC%E6%8B%89%E6%9D%BE/</loc>
-    <lastmod>2020-05-12T20:52:10+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/about/</loc>
-    <lastmod>2020-05-12T10:37:01+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/post/sec/</loc>
-    <lastmod>2020-05-11T14:28:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/tags/wkwebview/</loc>
-    <lastmod>2020-05-11T14:28:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/tags/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE/</loc>
-    <lastmod>2020-05-11T14:28:00+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/tags/cordova/</loc>
-    <lastmod>2020-05-11T14:23:02+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/post/first/</loc>
-    <lastmod>2020-05-11T14:23:02+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/tags/ios/</loc>
-    <lastmod>2020-05-11T14:23:02+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/post/goinstall/</loc>
-    <lastmod>2019-12-16T19:36:05+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/post/secondmalasong/</loc>
-    <lastmod>2019-09-12T15:52:10+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/post/guideline2.5.1/</loc>
-    <lastmod>2019-07-13T08:20:25+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/tags/Vue/</loc>
-    <lastmod>2019-03-13T09:30:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/post/vueincordova/</loc>
-    <lastmod>2019-03-13T09:30:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/post/thd/</loc>
-    <lastmod>2018-07-11T15:38:28+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/tags/%E8%AF%BB%E4%B9%A6/</loc>
-    <lastmod>2018-07-11T15:38:28+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/categories/%E8%AF%BB%E4%B9%A6/</loc>
-    <lastmod>2018-07-11T15:38:28+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/categories/%E6%89%AF%E9%97%B2%E7%AF%87/</loc>
-    <lastmod>2017-06-15T08:53:21+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/post/haveused/</loc>
-    <lastmod>2017-06-15T08:53:21+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/tags/session/</loc>
-    <lastmod>2015-09-22T16:19:25+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/post/sessiondomain/</loc>
-    <lastmod>2015-09-22T16:19:25+08:00</lastmod>
   </url>
   
   <url>
@@ -193,6 +16,10 @@
   
   <url>
     <loc>https://www.cocapai.com/search/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.cocapai.com/</loc>
   </url>
   
 </urlset>
