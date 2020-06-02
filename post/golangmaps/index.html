@@ -6,17 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Golangmaps | 酷卡派</title>
-    <meta property="og:title" content="Golangmaps - 酷卡派">
+    <title>npm和yarn的各种坑 | 酷卡派</title>
+    <meta property="og:title" content="npm和yarn的各种坑 - 酷卡派">
     <meta property="og:type" content="article">
         
-    <meta property="article:published_time" content='2020-05-24T09:45:29&#43;08:00'>
+    <meta property="article:published_time" content='2019-07-24T09:45:29&#43;08:00'>
         
         
-    <meta property="article:modified_time" content='2020-05-24T09:45:29&#43;08:00'>
+    <meta property="article:modified_time" content='2019-07-24T09:45:29&#43;08:00'>
         
     <meta name="Keywords" content="这特么还叫专注吗？谁知道呢？IOS、C/C&#43;&#43;、Python、flutter、vue、golang,go语言,go语言笔记,酷卡派,java,android,博客,项目管理,python,软件架构,公众号,小程序">
-    <meta name="description" content="Golangmaps">
+    <meta name="description" content="npm和yarn的各种坑">
         
     <meta name="author" content="酷卡派">
     <meta property="og:url" content="https://www.cocapai.com/post/golangmaps/">
@@ -177,10 +177,10 @@
 </script>
     <article class="post">
         <header>
-            <h1 class="post-title">Golangmaps</h1>
+            <h1 class="post-title">npm和yarn的各种坑</h1>
         </header>
         <date class="post-meta meta-date">
-            2020年5月24日
+            2019年7月24日
         </date>
         
         
@@ -191,7 +191,38 @@
         
         
         <div class="post-content">
-            
+            <p>真是不知道什么人搞出npm，yarn，composer这种东西，各种坑各种错误,真是脱了裤子放屁浪费感情，浪费时间</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">vagrant@homestead:~/Code/laravel-shop$ <span style="color:#008080">SASS_BINARY_SITE</span><span style="color:#000;font-weight:bold">=</span>http://npm.taobao.org/mirrors/node-sass yarn
+yarn install v1.22.4
+<span style="color:#000;font-weight:bold">[</span>1/4<span style="color:#000;font-weight:bold">]</span> Resolving packages...
+<span style="color:#000;font-weight:bold">[</span>2/4<span style="color:#000;font-weight:bold">]</span> Fetching packages...
+info fsevents@1.2.4: The platform <span style="color:#d14">&#34;linux&#34;</span> is incompatible with this module.
+info <span style="color:#d14">&#34;fsevents@1.2.4&#34;</span> is an optional dependency and failed compatibility check. Excluding it from installation.
+<span style="color:#000;font-weight:bold">[</span>3/4<span style="color:#000;font-weight:bold">]</span> Linking dependencies...
+warning <span style="color:#d14">&#34;laravel-mix &gt; img-loader@3.0.1&#34;</span> has unmet peer dependency <span style="color:#d14">&#34;imagemin@^5.0.0 || ^6.0.0&#34;</span>.
+error An unexpected error occurred: <span style="color:#d14">&#34;EPROTO: protocol error, symlink &#39;../acorn/bin/acorn&#39; -&gt; &#39;/home/vagrant/Code/laravel-shop/node_modules/acorn-dynamic-import/node_modules/.bin/acorn&#39;&#34;</span>.
+info If you think this is a bug, please open a bug report with the information provided in <span style="color:#d14">&#34;/home/vagrant/Code/laravel-shop/yarn-error.log&#34;</span>.
+info Visit https://yarnpkg.com/en/docs/cli/install <span style="color:#000;font-weight:bold">for</span> documentation about this command.
+</code></pre></td></tr></table>
+</div>
+</div><p>最后这样以下，才通过的。</p>
+<pre><code>npm install acorn --no-bin-links
+</code></pre>
         </div>
 
         
@@ -212,15 +243,15 @@
     <h2>See Also</h2>
     <ul class="listing">
         
-        <li><a href="/post/pointerror/">指针和错误 《通过测试学Go语言》</a></li>
+        <li><a href="/post/guideline2.5.1/">Guideline 2.5.1 - Performance - Software Requirements</a></li>
         
-        <li><a href="/post/goarray/">go语言结构体，方法，接口</a></li>
+        <li><a href="/post/vueincordova/">vue里调用cordova插件</a></li>
         
-        <li><a href="/tools/">一些有用的东西</a></li>
+        <li><a href="/post/thd/">《坚持是一种可以养成的习惯》读后分享</a></li>
         
-        <li><a href="/post/ifinsql/">sql语句里的条件语句</a></li>
+        <li><a href="/post/haveused/">早睡早起</a></li>
         
-        <li><a href="/post/2020quanmalasong/">第一个全马训练日志</a></li>
+        <li><a href="/post/sessiondomain/">二级域名的session共用</a></li>
         
     </ul>
 </div>
@@ -228,7 +259,13 @@
 
         <div class="post-meta meta-tags">
             
-            没有标签
+            <ul class="clearfix">
+                
+                <li><a href='https://www.cocapai.com/tags/npm'>npm</a></li>
+                
+                <li><a href='https://www.cocapai.com/tags/yarn'>yarn</a></li>
+                
+            </ul>
             
         </div>
     </article>
@@ -270,10 +307,6 @@
     </li>
     
     <li>
-        <a href="https://www.cocapai.com/post/golangmaps/" title="Golangmaps">Golangmaps</a>
-    </li>
-    
-    <li>
         <a href="https://www.cocapai.com/post/pointerror/" title="指针和错误 《通过测试学Go语言》">指针和错误 《通过测试学Go语言》</a>
     </li>
     
@@ -303,6 +336,10 @@
     
     <li>
         <a href="https://www.cocapai.com/post/secondmalasong/" title="第二个半马训练日志">第二个半马训练日志</a>
+    </li>
+    
+    <li>
+        <a href="https://www.cocapai.com/post/golangmaps/" title="npm和yarn的各种坑">npm和yarn的各种坑</a>
     </li>
     
 </ul>
@@ -358,11 +395,15 @@
     
     <a href="https://www.cocapai.com/tags/ios/">ios</a>
     
+    <a href="https://www.cocapai.com/tags/npm/">npm</a>
+    
     <a href="https://www.cocapai.com/tags/session/">session</a>
     
     <a href="https://www.cocapai.com/tags/sql/">sql</a>
     
     <a href="https://www.cocapai.com/tags/wkwebview/">wkwebview</a>
+    
+    <a href="https://www.cocapai.com/tags/yarn/">yarn</a>
     
     <a href="https://www.cocapai.com/tags/%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE/">百度地图</a>
     

@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>Golangmaps</title>
-      <link>https://www.cocapai.com/post/golangmaps/</link>
-      <pubDate>Sun, 24 May 2020 09:45:29 +0800</pubDate>
-      
-      <guid>https://www.cocapai.com/post/golangmaps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>指针和错误 《通过测试学Go语言》</title>
       <link>https://www.cocapai.com/post/pointerror/</link>
       <pubDate>Thu, 21 May 2020 08:25:55 +0800</pubDate>
@@ -99,6 +90,15 @@
       
       <guid>https://www.cocapai.com/post/secondmalasong/</guid>
       <description>2019年9月26日星期四 倒计时30天 跑步5公里，小腿肚子好疼和左脚大拇指疼，最近晚上在练hiit动作，估计强度有点大身体有点不适应 2019年9月25日星期三 倒计时31天 跑步7公里，小腿肚子好疼，最近贸然提速，看来是不太行。跑量堆积不够吗？ —–以下是正计时记录方法———– 2019</description>
+    </item>
+    
+    <item>
+      <title>npm和yarn的各种坑</title>
+      <link>https://www.cocapai.com/post/golangmaps/</link>
+      <pubDate>Wed, 24 Jul 2019 09:45:29 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/post/golangmaps/</guid>
+      <description>真是不知道什么人搞出npm，yarn，composer这种东西，各种坑各种错误,真是脱了裤子放屁浪费感情，浪费时间 1 2 3 4 5 6 7 8 9 10 11 vagrant@homestead:~/Code/laravel-shop$ SASS_BINARY_SITE=http://npm.taobao.org/mirrors/node-sass yarn yarn install v1.22.4 [1/4] Resolving packages... [2/4] Fetching packages... info fsevents@1.2.4: The platform &amp;#34;linux&amp;#34; is incompatible with this module. info &amp;#34;fsevents@1.2.4&amp;#34; is an optional dependency and failed compatibility check. Excluding it from installation. [3/4] Linking dependencies... warning &amp;#34;laravel-mix &amp;gt; img-loader@3.0.1&amp;#34; has unmet peer dependency &amp;#34;imagemin@^5.0.0 || ^6.0.0&amp;#34;. error An unexpected error occurred: &amp;#34;EPROTO: protocol error, symlink &amp;#39;../acorn/bin/acorn&amp;#39; -&amp;gt; &amp;#39;/home/vagrant/Code/laravel-shop/node_modules/acorn-dynamic-import/node_modules/.bin/acorn&amp;#39;&amp;#34;. info If you think this is a bug, please open</description>
     </item>
     
     <item>
