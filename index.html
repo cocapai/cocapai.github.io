@@ -81,6 +81,23 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="https://www.cocapai.com/post/docker/" title="Docker的坑">Docker的坑</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2020年6月4日
+        </date>
+        
+        <div class="post-content">            
+            
+            1、查看你当前的内核版本 uname -r 2、更新yum包 sudo yum update 3、卸载已安装的docker（如果安装过的话） yum remove docker docker-common docker-selinux docker-engine 4、安装需要的软件包 sudo yum install -y yum-utils device-mapper-persistent-data lvm2 5、设置yum源 sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo 6、可以查看所有仓库中所有docker版本，并选择特定版本安装 yum list docker-ce --showduplicates | sort -r 7、重新安装docker sudo yum install docker-ce 8、启……
+        </div>
+        <p class="readmore"><a href="https://www.cocapai.com/post/docker/">阅读全文</a></p>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="https://www.cocapai.com/post/golangang/" title="Golangang">Golangang</a>
             </h1>
         </header>
@@ -292,23 +309,6 @@
         <p class="readmore"><a href="https://www.cocapai.com/post/secondmalasong/">阅读全文</a></p>
     </article>
     
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="https://www.cocapai.com/post/golangmaps/" title="npm和yarn的各种坑">npm和yarn的各种坑</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2019年7月24日
-        </date>
-        
-        <div class="post-content">            
-            
-            真是不知道什么人搞出npm，yarn这种东西，各种依赖各种坑各种错误各种翻墙,真是脱了裤子放屁浪费感情，浪费时间，咋办？很多装逼分子都用，你咋办？没办法，装呗。 1 2 3 4 5 6 7 8 9 10 11 vagrant@homestead:~/Code/laravel-shop$ SASS_BINARY_SITE=http://npm.taobao.org/mirrors/node-sass yarn yarn install v1.22.4 [1/4] Resolving packages... [2/4] Fetching packages... info fsevents@1.2.4: The platform &#34;linux&#34; is incompatible with this module. info &#34;fsevents@1.2.4&#34; is an optional dependency and failed compatibility check. Excluding it from installation. [3/4] Linking dependencies... warning &#34;laravel-mix &gt; img-loader@3.0.1&#34; has unmet peer dependency &#34;imagemin@^5.0.0 ||……
-        </div>
-        <p class="readmore"><a href="https://www.cocapai.com/post/golangmaps/">阅读全文</a></p>
-    </article>
-    
     
 
 
@@ -354,6 +354,10 @@
 <ul class="widget-list">
     
     <li>
+        <a href="https://www.cocapai.com/post/docker/" title="Docker的坑">Docker的坑</a>
+    </li>
+    
+    <li>
         <a href="https://www.cocapai.com/post/golangang/" title="Golangang">Golangang</a>
     </li>
     
@@ -387,10 +391,6 @@
     
     <li>
         <a href="https://www.cocapai.com/post/secondmalasong/" title="第二个半马训练日志">第二个半马训练日志</a>
-    </li>
-    
-    <li>
-        <a href="https://www.cocapai.com/post/golangmaps/" title="npm和yarn的各种坑">npm和yarn的各种坑</a>
     </li>
     
 </ul>
@@ -441,6 +441,8 @@
     <a href="https://www.cocapai.com/tags/Vue/">Vue</a>
     
     <a href="https://www.cocapai.com/tags/cordova/">cordova</a>
+    
+    <a href="https://www.cocapai.com/tags/docker/">docker</a>
     
     <a href="https://www.cocapai.com/tags/golang/">golang</a>
     

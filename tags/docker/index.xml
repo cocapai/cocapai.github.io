@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on 酷卡派</title>
+    <link>https://www.cocapai.com/tags/docker/</link>
+    <description>Recent content in docker on 酷卡派</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 04 Jun 2020 16:19:02 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.cocapai.com/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Docker的坑</title>
+      <link>https://www.cocapai.com/post/docker/</link>
+      <pubDate>Thu, 04 Jun 2020 16:19:02 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/post/docker/</guid>
+      <description>1、查看你当前的内核版本 uname -r 2、更新yum包 sudo yum update 3、卸载已安装的docker（如果安装过的话） yum remove docker docker-common docker-selinux docker-engine 4、安装需要的软件包 sudo yum install -y yum-utils device-mapper-persistent-data lvm2 5、设置yum源 sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo 6、可以查看所有仓库中所有docker版本，并选择特定版本安装 yum list docker-ce --showduplicates | sort -r 7、重新安装docker sudo yum install docker-ce 8、启</description>
+    </item>
+    
+  </channel>
+</rss>
