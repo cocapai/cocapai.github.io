@@ -3,17 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.cocapai.com/post/2020hart/</loc>
+    <lastmod>2020-08-19T11:04:43+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.cocapai.com/post/</loc>
+    <lastmod>2020-08-19T11:04:43+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.cocapai.com/tags/docker/</loc>
     <lastmod>2020-06-04T16:19:02+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.cocapai.com/post/docker/</loc>
-    <lastmod>2020-06-04T16:19:02+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.cocapai.com/post/</loc>
     <lastmod>2020-06-04T16:19:02+08:00</lastmod>
   </url>
   
