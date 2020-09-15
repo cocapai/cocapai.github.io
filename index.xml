@@ -12,6 +12,24 @@
     
     
     <item>
+      <title>Miniconca</title>
+      <link>https://www.cocapai.com/post/miniconca/</link>
+      <pubDate>Tue, 15 Sep 2020 14:59:24 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/post/miniconca/</guid>
+      <description>miniconda安装 conda conda与anaconda、miniconda的区别： Conda是一个包管理器;Anaconda是一个发行包 conda可以理解为一个工具，也是一个可执行命令，其核心功能是包管理与环境管理。包管理与pip的使用类似，环境管理则允许用户方便地安装不同版本的p</description>
+    </item>
+    
+    <item>
+      <title>Nozuo</title>
+      <link>https://www.cocapai.com/post/nozuo/</link>
+      <pubDate>Sat, 29 Aug 2020 17:50:48 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/post/nozuo/</guid>
+      <description>不积硅步，无以至千里；不积小流，无以成江海。</description>
+    </item>
+    
+    <item>
       <title>2020你好焦虑</title>
       <link>https://www.cocapai.com/post/2020hart/</link>
       <pubDate>Wed, 19 Aug 2020 11:04:43 +0800</pubDate>
