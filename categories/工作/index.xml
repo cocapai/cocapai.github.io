@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工作 on 酷卡派</title>
+    <link>https://www.cocapai.com/categories/%E5%B7%A5%E4%BD%9C/</link>
+    <description>Recent content in 工作 on 酷卡派</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 29 May 2020 08:36:35 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.cocapai.com/categories/%E5%B7%A5%E4%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Springboot入门与实战</title>
+      <link>https://www.cocapai.com/post/springboot/</link>
+      <pubDate>Fri, 29 May 2020 08:36:35 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/post/springboot/</guid>
+      <description>Sprintboot入门 纯小白，从入门到放弃系列之java —&amp;gt; springboot</description>
+    </item>
+    
+  </channel>
+</rss>
