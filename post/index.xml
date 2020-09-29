@@ -53,7 +53,7 @@
       <pubDate>Fri, 29 May 2020 08:36:35 +0800</pubDate>
       
       <guid>https://www.cocapai.com/post/springboot/</guid>
-      <description>Sprintboot入门 纯小白，从入门到放弃系列之java —&amp;gt; springboot</description>
+      <description>Sprintboot入门 纯小白，从入门到放弃系列之java —&amp;gt; springboot https://www.w3cschool.cn/minicourse/play/springbootrm?cp=1951&amp;amp;gid=0</description>
     </item>
     
     <item>
@@ -174,6 +174,15 @@
     </item>
     
     <item>
+      <title>基于Ｑt/C&#43;&#43;Ｗeb后台MVC框架TreeFrog（环境搭建）</title>
+      <link>https://www.cocapai.com/post/treefrog/</link>
+      <pubDate>Wed, 29 Aug 2018 12:36:35 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/post/treefrog/</guid>
+      <description>Treefrog 入门 从入门到放弃系列之 Treefrog 官方网站： http://www.treefrogframework.org/en/download/ 这里环境是Linux，下面所有的命令都针对Linux环境。 参考官方文档：http://www.treefrogframework.org/en/user-guide/tutorial/ 1 . 安装TreeFrog Framework框架的依赖库： sudo</description>
+    </item>
+    
+    <item>
       <title>《坚持是一种可以养成的习惯》读后分享</title>
       <link>https://www.cocapai.com/post/thd/</link>
       <pubDate>Wed, 11 Jul 2018 15:38:28 +0800</pubDate>
@@ -198,6 +207,15 @@
       
       <guid>https://www.cocapai.com/post/sessiondomain/</guid>
       <description>不同的二级域名要公用登录状态时，cookie的sessionid是不同，所以不能同步登录状态。 一定要用的话就是下面这样 1 2 3 //在入口文件里加两行 ini_set(&amp;#39;session.cookie_path&amp;#39;, &amp;#39;/&amp;#39;); ini_set(&amp;#39;session.cookie_domain&amp;#39;, &amp;#39;cocapai.com&amp;#39;); 这样所有的子域名的session是相同的，当然前提是这些子域名要在一个服务器上</description>
+    </item>
+    
+    <item>
+      <title>从入门到放弃系列之c&#43;&#43;web框架crow</title>
+      <link>https://www.cocapai.com/post/crow/</link>
+      <pubDate>Fri, 29 Aug 2014 12:36:35 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/post/crow/</guid>
+      <description>从入门到放弃系列之c++web框架crow 环境 centos7 cmake boost g++ 11 crow clion 安装 cmake boost 使用yum 就可以 sudo yum install -y boost cmake g++, 之后是安装 crow ，从github 克隆下来 1 2 3 4 5 6 7 8 9 cd /usr/local or cd /opt git clone https://github.com/ipkn/crow.git cd crow mkdir build cd build cmake .. make ctest 如果没有问题 ，crow 大致就可以安装成功了， 在根目录有一个example 的目录 里面有二进制的</description>
     </item>
     
   </channel>
