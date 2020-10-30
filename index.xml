@@ -246,6 +246,15 @@
     </item>
     
     <item>
+      <title>mysql导入csv文件</title>
+      <link>https://www.cocapai.com/post/csv/</link>
+      <pubDate>Mon, 20 May 2013 17:13:06 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/post/csv/</guid>
+      <description>先建立和csv相应的字段表，然后 如下命令： load data infile &#39;要导入的文件&#39; into table 要存入的数据库表名 fields terminated by &#39;列的分隔符&#39; optionally enclosed by &#39;&amp;quot;&#39; escaped by &#39;&amp;quot;&#39; lines terminated by &#39;换行符&#39;; 实例如： load data infile &#39;F:/data.csv&#39; into table attr fields terminated by &#39;,&#39; optionally enclosed by &#39;&amp;quot;&#39; escaped by &#39;&amp;quot;&#39; lines terminated by &#39;\n&#39;; 可能出现如下错误： /* SQL错误（1290）：The MySQL server is running with the --secure-file-priv option so it cannot execute this statement */ 执行如下命</description>
+    </item>
+    
+    <item>
       <title>归档</title>
       <link>https://www.cocapai.com/archives/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

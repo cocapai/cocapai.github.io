@@ -155,5 +155,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>csv</title>
+      <link>https://www.cocapai.com/tags/csv/</link>
+      <pubDate>Mon, 20 May 2013 17:13:06 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/tags/csv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mysql</title>
+      <link>https://www.cocapai.com/tags/mysql/</link>
+      <pubDate>Mon, 20 May 2013 17:13:06 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

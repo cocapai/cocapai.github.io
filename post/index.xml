@@ -227,5 +227,14 @@
       <description>从入门到放弃系列之c++web框架crow 环境 centos7 cmake boost g++ 11 crow clion 安装 cmake boost 使用yum 就可以 sudo yum install -y boost cmake g++, 之后是安装 crow ，从github 克隆下来 1 2 3 4 5 6 7 8 9 cd /usr/local or cd /opt git clone https://github.com/ipkn/crow.git cd crow mkdir build cd build cmake .. make ctest 如果没有问题 ，crow 大致就可以安装成功了， 在根目录有一个example 的目录 里面有二进制的</description>
     </item>
     
+    <item>
+      <title>mysql导入csv文件</title>
+      <link>https://www.cocapai.com/post/csv/</link>
+      <pubDate>Mon, 20 May 2013 17:13:06 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/post/csv/</guid>
+      <description>先建立和csv相应的字段表，然后 如下命令： load data infile &#39;要导入的文件&#39; into table 要存入的数据库表名 fields terminated by &#39;列的分隔符&#39; optionally enclosed by &#39;&amp;quot;&#39; escaped by &#39;&amp;quot;&#39; lines terminated by &#39;换行符&#39;; 实例如： load data infile &#39;F:/data.csv&#39; into table attr fields terminated by &#39;,&#39; optionally enclosed by &#39;&amp;quot;&#39; escaped by &#39;&amp;quot;&#39; lines terminated by &#39;\n&#39;; 可能出现如下错误： /* SQL错误（1290）：The MySQL server is running with the --secure-file-priv option so it cannot execute this statement */ 执行如下命</description>
+    </item>
+    
   </channel>
 </rss>
