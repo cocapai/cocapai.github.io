@@ -269,6 +269,31 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="https://www.cocapai.com/post/fixed/" title="页面元素在窗口滚动到指定位置的时候fixed定位">页面元素在窗口滚动到指定位置的时候fixed定位</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2019年5月7日
+        </date>
+        
+        <div class="post-meta">
+            <span>|</span>
+            
+            <span class="meta-category"><a href='https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF'>IT技术</a></span>
+            
+        </div>
+        
+        <div class="post-content">
+            &lt;div class=&quot;top&quot;&gt; ·····内容 &lt;/div&gt; &lt;div class=&quot;scroll&quot;&gt;&lt;/div&gt; &lt;div class=&quot;bottom&quot;&gt; ·······内容 &lt;/div&gt; .sfixed{ position:fixed; top:0px; left:0px; z-index:10; } .scroll{ ······样式 } //Jq: &lt;script&gt; var top1=$(&quot;.scroll&quot;).offset().top; $(window).scroll(function(){ var win_top=$(this).scrollTop(); var top=$(&quot;.scroll&quot;).offset().top; if(win_top&gt;=top){ $(&quot;.scroll&quot;).addClass(&quot;sfixed&quot;); }//如果此处用else判断来remove sfixed这个类的话是不行的，因为当加上这个类的时候，&quot;.scroll&quot;这个元素fixed的top值是0，获取到的……
+        </div>
+        <p class="readmore"><a href="https://www.cocapai.com/post/fixed/">阅读全文</a></p>
+    </article>
+    
+    
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="https://www.cocapai.com/post/vueincordova/" title="vue里调用cordova插件">vue里调用cordova插件</a>
             </h1>
         </header>
@@ -287,31 +312,6 @@
             1 2 3 4 5 6 7 8 9 10 document.addEventListener( &#39;deviceready&#39;, function () { console.log(&#39;Device is Ready!&#39;); window.appAvailability.check( &#39;baidumap&#39;, () =&gt; {console.log(&#39;有&#39;)}, () =&gt; {console.log(&#39;没有&#39;)} ) }, false); 上面的window.appAvailability是根据cordova插件列表里的名字来的 cordova_plugin……
         </div>
         <p class="readmore"><a href="https://www.cocapai.com/post/vueincordova/">阅读全文</a></p>
-    </article>
-    
-    
-    
-    <article class="post">
-        <header>
-            <h1 class="post-title">
-                <a href="https://www.cocapai.com/post/treefrog/" title="基于Ｑt/C&#43;&#43;Ｗeb后台MVC框架TreeFrog（环境搭建）">基于Ｑt/C&#43;&#43;Ｗeb后台MVC框架TreeFrog（环境搭建）</a>
-            </h1>
-        </header>
-        <date class="post-meta meta-date">
-            2018年8月29日
-        </date>
-        
-        <div class="post-meta">
-            <span>|</span>
-            
-            <span class="meta-category"><a href='https://www.cocapai.com/categories/%E5%B7%A5%E4%BD%9C'>工作</a></span>
-            
-        </div>
-        
-        <div class="post-content">
-            Treefrog 入门 从入门到放弃系列之 Treefrog 官方网站： http://www.treefrogframework.org/en/download/ 这里环境是Linux，下面所有的命令都针对Linux环境。 参考官方文档：http://www.treefrogframework.org/en/user-guide/tutorial/ 1 . 安装TreeFrog Framework框架的依赖库： sudo……
-        </div>
-        <p class="readmore"><a href="https://www.cocapai.com/post/treefrog/">阅读全文</a></p>
     </article>
     
     
@@ -431,7 +431,7 @@
         <h3 class="widget-title">分类</h3>
 <ul class="widget-list">
     
-    <li><a href="https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF/">IT技术 (9)</a></li>
+    <li><a href="https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF/">IT技术 (10)</a></li>
     
     <li><a href="https://www.cocapai.com/categories/%E5%B7%A5%E4%BD%9C/">工作 (3)</a></li>
     
@@ -458,13 +458,19 @@
     
     <a href="https://www.cocapai.com/tags/cordova/">cordova</a>
     
+    <a href="https://www.cocapai.com/tags/css/">css</a>
+    
     <a href="https://www.cocapai.com/tags/csv/">csv</a>
     
     <a href="https://www.cocapai.com/tags/docker/">docker</a>
     
+    <a href="https://www.cocapai.com/tags/fixed/">fixed</a>
+    
     <a href="https://www.cocapai.com/tags/golang/">golang</a>
     
     <a href="https://www.cocapai.com/tags/ios/">ios</a>
+    
+    <a href="https://www.cocapai.com/tags/jquery/">jquery</a>
     
     <a href="https://www.cocapai.com/tags/mysql/">mysql</a>
     

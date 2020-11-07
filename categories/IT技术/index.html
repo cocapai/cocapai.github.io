@@ -228,6 +228,29 @@
     <article class="post">
         <header>
             <h1 class="post-title">
+                <a href="https://www.cocapai.com/post/fixed/">页面元素在窗口滚动到指定位置的时候fixed定位</a>
+            </h1>
+        </header>
+        <date class="post-meta meta-date">
+            2019年5月7日
+        </date>
+        
+        <div class="post-meta meta-category">
+            |
+            
+            <a href='https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF'>IT技术</a>
+            
+        </div>
+        
+        <div class="post-content">
+            &lt;div class=&quot;top&quot;&gt; ·····内容 &lt;/div&gt; &lt;div class=&quot;scroll&quot;&gt;&lt;/div&gt; &lt;div class=&quot;bottom&quot;&gt; ·······内容 &lt;/div&gt; .sfixed{ position:fixed; top:0px; left:0px; z-index:10; } .scroll{ ······样式 } //Jq: &lt;script&gt; var top1=$(&quot;.scroll&quot;).offset().top; $(window).scroll(function(){ var win_top=$(this).scrollTop(); var top=$(&quot;.scroll&quot;).offset().top; if(win_top&gt;=top){ $(&quot;.scroll&quot;).addClass(&quot;sfixed&quot;); }//如果此处用else判断来remove sfixed这个类的话是不行的，因为当加上这个类的时候，&quot;.scroll&quot;这个元素fixed的top值是0，获取到的……
+            <p class="readmore"><a href="https://www.cocapai.com/post/fixed/">阅读全文</a></p>
+        </div>
+    </article>
+    
+    <article class="post">
+        <header>
+            <h1 class="post-title">
                 <a href="https://www.cocapai.com/post/vueincordova/">vue里调用cordova插件</a>
             </h1>
         </header>
@@ -383,7 +406,7 @@
         <h3 class="widget-title">分类</h3>
 <ul class="widget-list">
     
-    <li><a href="https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF/">IT技术 (9)</a></li>
+    <li><a href="https://www.cocapai.com/categories/IT%E6%8A%80%E6%9C%AF/">IT技术 (10)</a></li>
     
     <li><a href="https://www.cocapai.com/categories/%E5%B7%A5%E4%BD%9C/">工作 (3)</a></li>
     
@@ -410,13 +433,19 @@
     
     <a href="https://www.cocapai.com/tags/cordova/">cordova</a>
     
+    <a href="https://www.cocapai.com/tags/css/">css</a>
+    
     <a href="https://www.cocapai.com/tags/csv/">csv</a>
     
     <a href="https://www.cocapai.com/tags/docker/">docker</a>
     
+    <a href="https://www.cocapai.com/tags/fixed/">fixed</a>
+    
     <a href="https://www.cocapai.com/tags/golang/">golang</a>
     
     <a href="https://www.cocapai.com/tags/ios/">ios</a>
+    
+    <a href="https://www.cocapai.com/tags/jquery/">jquery</a>
     
     <a href="https://www.cocapai.com/tags/mysql/">mysql</a>
     

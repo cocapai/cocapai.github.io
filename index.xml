@@ -192,6 +192,15 @@
     </item>
     
     <item>
+      <title>页面元素在窗口滚动到指定位置的时候fixed定位</title>
+      <link>https://www.cocapai.com/post/fixed/</link>
+      <pubDate>Tue, 07 May 2019 15:23:31 +0800</pubDate>
+      
+      <guid>https://www.cocapai.com/post/fixed/</guid>
+      <description>&amp;lt;div class=&amp;quot;top&amp;quot;&amp;gt; ·····内容 &amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;scroll&amp;quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;quot;bottom&amp;quot;&amp;gt; ·······内容 &amp;lt;/div&amp;gt; .sfixed{ position:fixed; top:0px; left:0px; z-index:10; } .scroll{ ······样式 } //Jq: &amp;lt;script&amp;gt; var top1=$(&amp;quot;.scroll&amp;quot;).offset().top; $(window).scroll(function(){ var win_top=$(this).scrollTop(); var top=$(&amp;quot;.scroll&amp;quot;).offset().top; if(win_top&amp;gt;=top){ $(&amp;quot;.scroll&amp;quot;).addClass(&amp;quot;sfixed&amp;quot;); }//如果此处用else判断来remove sfixed这个类的话是不行的，因为当加上这个类的时候，&amp;quot;.scroll&amp;quot;这个元素fixed的top值是0，获取到的</description>
+    </item>
+    
+    <item>
       <title>vue里调用cordova插件</title>
       <link>https://www.cocapai.com/post/vueincordova/</link>
       <pubDate>Wed, 13 Mar 2019 09:30:40 +0800</pubDate>
